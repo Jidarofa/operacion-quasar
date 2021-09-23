@@ -1,0 +1,16 @@
+{
+    "name": "List of tests",
+       "script": "run-test",
+       "tests": [
+           { 
+               "name": "quasar",
+               "options": {
+                   "scenarios": {
+                       "files": [
+                          "operacion-quasar.js"
+                       ]
+                   }
+               }
+           }
+       ]
+   }

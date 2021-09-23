@@ -1,0 +1,40 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Proyecto que prueba llamadas a API con Chai HTTP",
+  "main": "index.js",
+  "scripts": {
+    "run-test": "mocha --timeout 50000"
+  },
+  "author": "Nicolas Cordero",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai-http": "^4.2.0",
+    "chai-xml": "^0.4.0",
+    "electron-rebuild": "^2.3.5",
+    "npm": "^6.13.7",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "@types/chai": "^4.2.8",
+    "@types/node": "^13.7.0",
+    "@types/node-fetch": "^2.5.4",
+    "atob": "^2.1.2",
+    "btoa": "^1.2.1",
+    "chai": "*",
+    "chai-http": "^3.0.0",
+    "chai-json": "^1.0.0",
+    "chai-json-schema": "^1.5.1",
+    "mocha": "^3.5.0",
+    "mocha-per-file": "^4.0.6",
+    "restify": "^4.3.0",
+    "restify-cookies": "^0.2.2",
+    "xmldom": "^0.6.0",
+    "yargs": "^15.1.0"
+  },
+  "files": [
+    "package.json",
+    "lib.es2015/*",
+    "lib/*"
+  ]
+}
